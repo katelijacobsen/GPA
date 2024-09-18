@@ -22,7 +22,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 8vw;
+  font-size: 5vw;
 }
 
 #gamefield {
@@ -43,8 +43,8 @@ h1 {
 .player {
   transform: scale(var(--rot),1);
   width: 40vw;
-  height: 40vw;
-  background-size: 60%;
+  height: 30vw;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-image: url(paper.webp);
   
@@ -136,10 +136,6 @@ h1 {
 
 button.rock {
   background-image: url(button_rock.png);
-}
-
-button:active {
-  transform: scale(1.1);
 }
 
 .animation-container{
