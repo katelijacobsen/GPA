@@ -1,6 +1,6 @@
 @font-face {
   font-family: "GamePause";
-  src: url("./fonts/Game.woff2");
+  src: url("fonts/Game.woff2");
 }
 html {
   --color-midnight-green: #02394a;
